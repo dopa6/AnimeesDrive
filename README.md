@@ -10,7 +10,7 @@ This Chrome extension replaces the **Sibnet video player** with the **Plyr video
 ### Installation
 1. Download or clone the repository:
    ```bash
-   git clone https://github.com/your-repo-name.git
+   git clone https://github.com/AnimeesDrive
    ```
 2. Open Chrome and navigate to `chrome://extensions/`.
 3. Enable **Developer mode** (toggle in the top-right corner).
