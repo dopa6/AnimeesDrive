@@ -1,0 +1,36 @@
+{
+  "extension_name": {
+    "message": "Animees"
+  },
+  "extension_title": {
+    "message": "Animees"
+  },
+  "extension_descr": {
+    "message": "Animees"
+  },
+  "extension_lang": {
+    "message": "fr"
+  },
+
+  "settings_enable": {
+    "message": "Activé"
+  },
+  "settings_disable": {
+    "message": "Désactivé"
+  },
+
+  "links_reviews": {
+    "message": ""
+  },
+  "links_support": {
+    "message": "Support"
+  },
+
+  "btn_open": {
+    "message": "Ouvrir sur Sibnet.ru"
+  },
+  "btn_download": {
+    "message": "Download video"
+  }
+
+}
