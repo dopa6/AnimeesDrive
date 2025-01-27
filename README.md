@@ -22,4 +22,6 @@ This Chrome extension replaces the **Sibnet video player** with the **Plyr video
 Enjoy a better viewing experience with this Chrome extension! 🎥
 <br>
 <br>
+<div align="right">
 <img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="100">
+</div>
