@@ -20,3 +20,6 @@ This Chrome extension replaces the **Sibnet video player** with the **Plyr video
 - Navigate to Animees and enjoy videos with the upgraded Plyr player!
 
 Enjoy a better viewing experience with this Chrome extension! 🎥
+<br>
+<br>
+<img src="https://i.pinimg.com/originals/80/7b/5c/807b5c4b02e765bb4930b7c66662ef4b.gif" width="100">
