@@ -1,0 +1,56 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+  "manifest_version": 2,
+  "minimum_chrome_version": "75",
+  "name": "__MSG_extension_name__",
+  "short_name": "__MSG_extension_title__",
+  "version": "1.3.6",
+  "description": "__MSG_extension_descr__",
+  "default_locale": "en",
+  "icons": {
+    "16": "icons/c.png",
+    "48": "icons/c.png",
+    "128": "icons/c.png"
+  },
+  "author": "EbNull",
+  "permissions": [
+    "storage",
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.sibnet.ru/*"
+  ],
+  "browser_action": {
+    "default_icon": {
+      "19": "icons/c.png",
+      "38": "icons/c.png"
+    },
+    "default_title": "__MSG_extension_title__",
+    "default_popup": "browseraction/popup.html"
+  },
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "matches": [
+        "*://video.sibnet.ru/*"
+      ],
+      "css": [
+        "vendor/plyr.css",
+        "contentscripts/content.css"
+      ],
+      "js": [
+        "vendor/jquery.js",
+        "vendor/plyr.js",
+        "contentscripts/content.js"
+      ]
+    }
+  ],
+  "web_accessible_resources": [
+    "vendor/*"
+  ]
+}
